@@ -1,2 +1,2 @@
-# codeexp
-exporting to the code from vs
+exporting the code from vscode to github
+
