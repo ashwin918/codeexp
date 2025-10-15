@@ -1,0 +1,67 @@
+.admin-dashboard {
+  padding: 40px;
+  background: #f4f6f8;
+  min-height: 100vh;
+}
+
+.admin-header h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.admin-header p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.admin-metrics {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.metric-box {
+  background: white;
+  padding: 25px;
+  border-left: 6px solid #007bff;
+  border-radius: 12px;
+  flex: 1;
+  min-width: 200px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  transition: transform 0.2s;
+}
+
+.metric-box:hover {
+  transform: translateY(-3px);
+}
+
+.metric-box h3 {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.metric-box span {
+  font-size: 26px;
+  font-weight: bold;
+  color: #222;
+}
+
+.admin-section {
+  margin-top: 40px;
+}
+
+.admin-section h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.admin-ticket-list,
+.admin-log-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

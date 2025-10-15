@@ -1,0 +1,142 @@
+.home-wrapper {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background-color: #fefefe;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 8%;
+  background: linear-gradient(120deg, #007bff 0%, #0056b3 100%);
+  color: white;
+  flex-wrap: wrap;
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.hero-content h1 span {
+  color: #ffe082;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.hero-content button {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  background: #ffc107;
+  color: #222;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.hero-content button:hover {
+  background: #e0a800;
+}
+
+.hero-image {
+  flex: 1;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+/* Highlights */
+.highlights {
+  padding: 60px 8%;
+  text-align: center;
+}
+
+.highlights h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.highlight-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.highlight-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  max-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.highlight-card:hover {
+  transform: translateY(-5px);
+}
+
+.highlight-card h3 {
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+/* Features Grid */
+.features {
+  padding: 60px 8%;
+  background: #f7f9fc;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.feature-box {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  font-size: 16px;
+  color: #333;
+}
+
+/* Footer */
+.footer {
+  padding: 30px 8%;
+  background: #222;
+  color: #ccc;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 14px;
+}
+
+.footer-links a {
+  margin-left: 20px;
+  color: #bbb;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: white;
+}

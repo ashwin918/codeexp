@@ -1,0 +1,51 @@
+.admin-log-card {
+  background: #ffffff;
+  padding: 18px 22px;
+  margin-bottom: 18px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+  border-left: 5px solid #17a2b8;
+  transition: transform 0.2s ease;
+}
+
+.admin-log-card:hover {
+  transform: translateY(-2px);
+}
+
+.admin-log-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-log-header h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.log-date {
+  font-size: 13px;
+  color: #888;
+}
+
+.log-action {
+  margin: 12px 0;
+  color: #555;
+  font-size: 15px;
+}
+
+.admin-log-footer {
+  font-size: 13px;
+  color: #666;
+  font-style: italic;
+}
+
+.delete-log {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+
